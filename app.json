@@ -1,12 +1,12 @@
 {
-  "name": "levanter@5.2.3",
+  "name": "Godbless",
   "description": "",
   "keywords": ["noedjs"],
   "success_url": "/",
   "env": {
     "ALWAYS_ONLINE": {
       "description": "show bot number last seen as online",
-      "required": false,
+      "required": true,
       "value": "false"
     },
     "LOG_MSG": {
@@ -25,7 +25,7 @@
       "value": "."
     },
     "SESSION_ID": {
-      "description": "session id",
+      "description": "levanter_269484b90e36fa4ef9a650bb20908be43a",
       "required": true,
       "value": ""
     },
@@ -114,8 +114,8 @@
     },
     "PERSONAL_MESSAGE": {
       "description": "Send a Welcome message on personal chat",
-      "required": false,
-      "value": "null"
+      "required": true,
+      "value": "Welcome to my boss profile"
     },
     "DISABLE_START_MESSAGE": {
       "description": "Disable start Message",
